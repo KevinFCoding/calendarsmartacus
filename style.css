@@ -48,9 +48,12 @@ footer .section_footer_colored{
 }
 
 footer .section_footer_colored a {
-    margin-top: 30px;
     text-decoration: none;
     color : #bfbfbf;
+}
+
+footer .mention_padding{
+    padding-top: 30px;
 }
 
 footer .linkfooter:hover{

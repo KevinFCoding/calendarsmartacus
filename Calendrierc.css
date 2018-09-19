@@ -1,12 +1,27 @@
 
 /*En tête */
 
+header {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bloc_mois
+{
+    padding: 50px ;
+    border-radius: 10px 10px 0px 0px;
+    
+}
 
+header img{
+    width: 250px;
+    height:auto;
+}
 
 
 header h1{
     text-align: right;
-    color:#FFF;
+    color:#000;
 }
 button a
 {
@@ -41,13 +56,7 @@ button
     background-color:#FFF; 
 }
 
-.bloc_mois
-{
-    padding: 50px ;
-    background: #cc201c;
-    border-radius: 10px 10px 0px 0px;
-    
-}
+
 
 /* jour de la semaine */
 

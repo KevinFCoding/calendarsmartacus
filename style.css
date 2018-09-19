@@ -1,4 +1,3 @@
-
 /*En tête */
 
 header {
@@ -13,6 +12,11 @@ header img{
 
 }
 
+header h1 .far{
+    text-align: center;
+    font-size: 30px;
+    color : #CC201C;
+}
 
 header h1{
     text-align: center;

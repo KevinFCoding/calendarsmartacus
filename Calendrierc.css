@@ -1,0 +1,315 @@
+
+/*En tête */
+
+
+
+
+header h1{
+    text-align: right;
+    color:#FFF;
+}
+button a
+{
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+button
+{
+    border-radius: 10px;
+
+}
+
+
+
+
+.mois
+{
+    margin: 0;
+    padding: 10px 0;
+    background-color:#FFF;
+}
+
+.mois li
+{
+    display: inline-block;
+    width: 7.5%;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 5px 0;
+    background-color:#FFF; 
+}
+
+.bloc_mois
+{
+    padding: 50px ;
+    background: #cc201c;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+/* jour de la semaine */
+
+.journee
+{
+    margin: 0;
+    
+    background-color:#CC201C;
+}
+
+ ul{
+    padding:0;
+}
+.journee li
+{
+    display: inline-block;
+    width: 13.5%;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding:  10px 0;
+     
+
+}
+
+/* tous les jour du mois */
+
+.SemaineA 
+{
+    padding:  0;
+    background: #C0C0C0;
+    margin: 0;
+}
+
+.SemaineB
+{
+    background-color: #808080;
+    padding:  0;
+    background: #808080;
+    margin: 0;
+
+}
+
+
+.SemaineA li , .SemaineB li
+{
+    
+    display: inline-block;
+    width: 13.5%;
+    text-align: center;
+   
+    font-size:12px;
+    line-height: 70px;
+   
+   
+}
+
+.Jour1:hover  /*Il faudrait tout changer faire un jour = un bloc */
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour2:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour3:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour4:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour5:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour6:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour7:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour8:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour9:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour10:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour11:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour12:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour13:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour14:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour15:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour16:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour17:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+.Jour8:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour19:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour20:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour21:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour22:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour23:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour24:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour25:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour26:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour27:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour28:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour29:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour30:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+.Jour31:hover
+{
+    background-color: white;
+    color: #cc201c;
+}
+
+
+
+
+
+.jourji
+{
+    color: white;
+    padding: 5px;
+    background: #7520B2;
+    border-radius: 20px;
+}
+    
+
+
+
+
+    
+/* A FAIRE :
+
+    Rajouter une page où on peut apuyer sur n'importe quel calendrier (on pourrait aussi gestionner );
+    Mettre 12 page; 
+    Faire un block par jour 
+*/

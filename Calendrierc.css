@@ -9,27 +9,37 @@ header {
 }
 
 header img{
-    width: 250px;
+    max-width: 10%;
     height:auto;
 }
 
 
 header h1{
-    text-align: right;
+    text-align: center;
     color:#000;
+    width: 250px;
 }
 button a
 {
-    border-radius: 10px;
     text-decoration: none;
+    color: #CC201C;
+
 }
 
 button
 {
-    border-radius: 10px;
+    padding: 20px 53px;
+
+}
+.buttonhover:hover {
+    background-color: #CC201C;
+    transition: all 0.5s ease;
 
 }
 
+.buttonhover:hover a {
+    color : #FFF;
+}
 
 
 
@@ -47,7 +57,7 @@ button
     color: black;
     text-align: center;
     margin: 0;
-    padding: 5px 0;
+    padding: 10px 0;
     background-color:#FFF; 
 }
 

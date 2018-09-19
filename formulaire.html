@@ -2,10 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8">
+        
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="formulaire.css" />
+        
         <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Antic+Slab" rel="stylesheet">
+    
         <title>Formulaire</title>
+
+        <link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet"></link>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>
+          $( function() {
+            $( "#datepicker" ).datepicker();
+          } );
+          </script>        
+
     </head>
     <body>
         
@@ -13,162 +28,94 @@
 
     <div class="bd">
 
-        <img src="Image/logo-coding-factory.png" alt="" height="35px" class="menu">
-
-        <div class="menu menu-text">
-            <p>CONCEPT</p>
+		<a href="index.html">
+        	<img src="Image/logo-coding-factory.png" alt="" height="35px" class="menu" style="margin-top: 6px">
+		</a>
+		
+        <div class="menu menu1 surv surv:hover" style="margin-left: 150px">
+			<a href="https://codingfactory.fr/concept/" class="menu3"><p class="menu2">CONCEPT</p></a>
         </div>
-        <div class="menu menu1">
-            <p>FORMATIONS</p>
+        <div class="menu menu1 surv surv:hover">
+			<a href="https://codingfactory.fr/developpeur/" class="menu3"><p class="menu2">FORMATIONS</p></a>
         </div>
-        <div class="menu menu1">
-            <p>EQUIPE</p>
+        <div class="menu menu1 surv surv:hover">
+            <a href="https://codingfactory.fr/equipe/" class="menu3"><p class="menu2">EQUIPE</p></a>
         </div>
-        <div class="menu menu1">
-            <p>ENTREPRISE</p>
+        <div class="menu menu1 surv surv:hover">
+            <a href="https://codingfactory.fr/entreprises/" class="menu3"><p class="menu2">ENTREPRISE</p></a>
         </div>
-        <div class="menu menu1">
-            <p>PRESSE</p>
+        <div class="menu menu1 surv surv:hover">
+            <a href="https://codingfactory.fr/presse/" class="menu3"><p class="menu2">PRESSE</p></a>
         </div>
 
     </div>
 
 
 
-    <div class="slide" style="bac">
-        <br><br><br>
-
+    <div class="backgr" style="backgr">
+		<!-- Img -->
     </div>
-
-    <div class="main">
-
-    </div>
-
-
 
     <!-- Formulaire -->
     
-    <div class="contenerform">
+    <div class="contform">
 
         <div>
-            <h1>
+            <h1 style="color: #464646"> <!-- changer police -->
                 &Eacute;vènement 
             </h1>
         </div>
+        <div>
+            <form>
+                <p>Titre</p>
+                <input type="text" name="Titre" class="qx">
+                
+                <br>
+                
+                <p>Date</p>
+                <div >
+                    <input type="text" id="datepicker" class="qx" style="text-align: center">
+                </div>
 
-        <form>
-            Titre
-            <br>
-            <input type="text" name="Titre">
-            <br><br>
-            Jour 
-            <select>
-                <option value="jour"selected>1</option>
-                <option value="jour">2</option>
-                <option value="jour">3</option>
-                <option value="jour">4</option>
-                <option value="jour">5</option>
-                <option value="jour">6</option>
-                <option value="jour">7</option>
-                <option value="jour">8</option>
-                <option value="jour">9</option>
-                <option value="jour">10</option>
-                <option value="jour">11</option>
-                <option value="jour">12</option>
-                <option value="jour">13</option>
-                <option value="jour">14</option>
-                <option value="jour">15</option>
-                <option value="jour">16</option>
-                <option value="jour">17</option>
-                <option value="jour">18</option>
-                <option value="jour">19</option>
-                <option value="jour">20</option>
-                <option value="jour">21</option>
-                <option value="jour">22</option>
-                <option value="jour">23</option>
-                <option value="jour">24</option>
-                <option value="jour">25</option>
-                <option value="jour">26</option>
-                <option value="jour">27</option>
-                <option value="jour">28</option>
-                <option value="jour">29</option>
-                <option value="jour">30</option>
-                <option value="jour">31</option>
-            </select>
-            Mois  
-            <select>
-                <option value="mois" selected>Janvier</option>
-                <option value="mois">Février</option>
-                <option value="mois">Mars</option>
-                <option value="mois">Avril</option>
-                <option value="mois">Mai</option>
-                <option value="mois">Juin</option>
-                <option value="mois">Juillet</option>
-                <option value="mois">Août</option>
-                <option value="mois">Septembre</option>
-                <option value="mois">Octobre</option>
-                <option value="mois">Novembre</option>
-                <option value="mois">Décembre</option>
-            </select>
-            <br><br>
-            Horaire 
-            <select>
-                <option value="heure"selected>0</option>
-                <option value="heure">1</option>
-                <option value="heure">2</option>
-                <option value="heure">3</option>
-                <option value="heure">4</option>
-                <option value="heure">5</option>
-                <option value="heure">6</option>
-                <option value="heure">7</option>
-                <option value="heure">8</option>
-                <option value="heure">9</option>
-                <option value="heure">10</option>
-                <option value="heure">11</option>
-                <option value="heure">12</option>
-                <option value="heure">13</option>
-                <option value="heure">14</option>
-                <option value="heure">15</option>
-                <option value="heure">16</option>
-                <option value="heure">17</option>
-                <option value="heure">18</option>
-                <option value="heure">19</option>
-                <option value="heure">20</option>
-                <option value="heure">21</option>
-                <option value="heure">22</option>
-                <option value="heure">23</option>
-            </select>
-            : 
-            <select>
-                <option value="minute" selected>0</option>
-                <option value="minute">5</option>
-                <option value="minute">10</option>
-                <option value="minute">15</option>
-                <option value="minute">20</option>
-                <option value="minute">25</option>
-                <option value="minute">30</option>
-                <option value="minute">35</option>
-                <option value="minute">40</option>
-                <option value="minute">45</option>
-                <option value="minute">50</option>
-                <option value="minute">55</option>
-            </select>
-            <br><br>
-            Localisation
-            <br>
-            <input type="text" name="localisation">
-            <br><br>
-            Notes<br>
-            <textarea name="Notes" rows="5" cols="27">    
-            </textarea>
-        </form>
-        
+                <p>Localisation</p>
+                <input type="text" name="localisation" class="qx"> 
+                
+                <br>
+
+                <p>Notes</p>
+                <textarea name="Notes" rows="5" cols="27" class="qx1">    
+                </textarea>
+            </form>
+        </div>
+
         <br>
 
         <div>
-            <input type="submit" name="send" value="envoyer">
+            <input type="submit" name="send" value="Annuler" class="button button1 button1:hover">
+				<b style="opacity: 0">...</b>
+			<input type="submit" name="send" value="Enregistrer" class="button button2 button2:hover">
         </div>
 
-    </div>
-    </body>
-</html
+    </div> 
+		
+	
+		<footer>
+			<p>
+			<img src="./Image/logos1.jpg" class="footerimg1"><br>
+			<img src="./Image/logo2.png" class="footerimg2">
+			</p>
+			<p>La Coding Factory by ITESCIA est une école du code créée à l'initiative d'<span>ITESCIA</span> , école de la <span>CCI Paris Ile-de-France.</span></p>
+
+			<div class="section_footer_colored">
+				<p class="mention_padding"><a href="#" class="linkfooter">Mention Légales</a> - <a href="#" class="linkfooter">Plan du Site</a> - <a href="#" class="linkfooter">Contact</a></p>
+				<p>Copyright 2018 SMARTACUS</p>	
+				<p><i class="fab fa-facebook-f"></i>
+				<i class="fab fa-twitter"></i>
+				<i class="fab fa-linkedin-in"></i>
+				<i class="fab fa-instagram"></i></p>
+			</div>
+	
+		</footer>
+    
+</body>
+</html>

@@ -187,11 +187,10 @@ button
 .hoverjour:hover{
     background-color: #FFF;
     color: red;
-
 }
-
-
-.Jour1:hover  /*Il faudrait tout changer faire un jour = un bloc */
+/*Il faudrait tout changer faire un jour = un bloc */
+/*
+.Jour1:hover  
 {
     background-color: white;
     color: #cc201c;
@@ -376,17 +375,14 @@ button
     color: #cc201c;
 }
 
-
+*/
 .testA a
 {
-
     display:block;
     width:100%;
     height:100%;
     text-decoration: none;
     color: inherit;
-
-    
 }
 
 

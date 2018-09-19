@@ -318,6 +318,9 @@ button
     border-radius: 20px;
 }
     
+
+
+
 /* formulaire */
 
 body{
@@ -337,24 +340,27 @@ body h1, body h2, body h3, body h4, body h5, body h5{
     margin-right: 75px;
     padding: 20px;
 
+    height: 30px;
+    align-content: center;
 
 }
 
 .menu {
-    justify-content: space-around;
+    float: left;
     display: flex;
 }
 
-.menu-text {
-    text-decoration-color: #8a0000;
+.menu1 {
+    color: #da0000;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -9px;
 }
 
 .slide {
     background-color: black;
 
 }
-
-
 
 .main {
     margin-top: 50px;
@@ -376,6 +382,3 @@ body h1, body h2, body h3, body h4, body h5, body h5{
     margin-right: 200px;
     padding: 20px;
 }
-
-
-

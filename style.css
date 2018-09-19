@@ -175,6 +175,17 @@ button
    
 }
 
+.hoverjour 
+{
+   transition: all 0.5s ease; 
+}
+.hoverjour:hover{
+    background-color: #FFF;
+    color: red;
+
+}
+
+
 .Jour1:hover  /*Il faudrait tout changer faire un jour = un bloc */
 {
     background-color: white;
@@ -361,7 +372,17 @@ button
 }
 
 
+.testA a
+{
 
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    color: inherit;
+
+    
+}
 
 
 .jourji

@@ -361,7 +361,7 @@ button
 
 
 
-/* formulaire */
+/* Font */
 
 body{
 font-family: 'PT Sans', sans-serif;
@@ -374,54 +374,3 @@ body h1, body h2, body h3, body h4, body h5, body h5{
     font-family: 'Antic Slab', sans-serif;
 }
 
-/* -- Bandeau -- */
-
-.bd {
-    margin-top: -10px;
-    margin-bottom: -10px;
-    margin-left: 148px;
-    margin-right: 75px;
-    padding: 20px;
-
-    height: 30px;
-    align-content: center;
-
-}
-
-.menu {
-    float: left;
-    display: flex;
-}
-
-.menu1 {
-    color: #da0000;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: -9px;
-}
-
-.slide {
-    background-color: black;
-
-}
-
-.main {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 148spx;
-    margin-right: 75px;
-    padding: 20px;
-
-}
-
-/* -- Formulaire -- */
-
-.contenerform {
-    background-color: #f3f3f3;
-    text-align: center;
-    margin-top: 200px;
-    margin-bottom: 200px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding: 20px;
-}

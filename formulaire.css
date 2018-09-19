@@ -1,6 +1,9 @@
-body {
+body{
 font-family: 'PT Sans', sans-serif;
 
+}
+body h1, body h2, body h3, body h4, body h5, body h5{
+    font-family: 'Antic Slab', sans-serif;
 }
 
 /* -- Bandeau -- */

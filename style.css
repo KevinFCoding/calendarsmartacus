@@ -56,9 +56,15 @@ footer .mention_padding{
     padding-top: 30px;
 }
 
+footer .linkfooter{
+    color: inherit;
+    transition: all 0.5s ease;
+}
+
 footer .linkfooter:hover{
+
     color: #CC201C;
-    transition: all 0.5 ease;
+    
 }
 
 

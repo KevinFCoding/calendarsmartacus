@@ -5,12 +5,7 @@ header {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-.bloc_mois
-{
-    padding: 50px ;
-    border-radius: 10px 10px 0px 0px;
-    
+    padding: 30px;
 }
 
 header img{
@@ -48,7 +43,7 @@ button
 .mois li
 {
     display: inline-block;
-    width: 7.5%;
+    width: 8%;
     color: black;
     text-align: center;
     margin: 0;

@@ -26,6 +26,7 @@ header h1{
 
 /* button mois*/
 
+/*
 button a
 {
     text-decoration: none;
@@ -63,18 +64,39 @@ button
     flex-wrap: wrap;
 
 }
+*/
 
+.mois {
+    display: flex;
+    margin : 0;
+    padding: 0;
+    width : 100%;
+    
+}
 .mois li
 {
-    display: inline-block;
-    color: black;
+    width: 8.22%;
     text-align: center;
-    margin: 0;
-    padding:  0;
-    background-color:#FFF;
+    font-size:18px;
+    line-height: 70px;
+    border: 1px solid #000;
+    transition: all 0.5s ease;
+    list-style-type: none;
+
 
 }
 
+.mois a {
+    display:block;
+    width:100%;
+    height:100%;
+    color: inherit;   
+    text-decoration: none;
+}
+
+.mois li:hover {
+    background-color : #CC201C;
+}
 
 
 /* jour de la semaine */
@@ -125,7 +147,6 @@ ul
     display: inline-block;
     width: 13.5%;
     text-align: center;
-   
     font-size:12px;
     line-height: 70px;
    
@@ -140,6 +161,8 @@ ul
     background-color: #FFF;
     color: red;
 }
+
+
 /*Il faudrait tout changer faire un jour = un bloc */
 /*
 .Jour1:hover  

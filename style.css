@@ -1,5 +1,5 @@
 /*En tête */
-
+/*
 header {
     padding: 30px;
 }
@@ -11,7 +11,7 @@ header img{
     height: 150px;
 
 }
-
+*/
 header h1 .far{
     text-align: center;
     font-size: 30px;
@@ -22,6 +22,7 @@ header h1{
     text-align: center;
     color:#000;
 }
+  
 /* Footer */
 footer p{
     color : #8c8989;

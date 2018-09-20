@@ -42,6 +42,8 @@
 
 .slide {
     background-color: black;
+    
+    
     /*
     background-image: image(./Image/logo_smartacus1.png)
     */
@@ -68,17 +70,6 @@
     margin-right: 30%;
 	padding-top: 20px;
     padding-bottom: 40px;
-}
-
-/* -- background-color: black; -- */
-
-.backgr {
-
-    
-    background-image: url(../Image/logo_smartacus2.png);
-    min-height: 400px;
-    vertical-align: 0%;
-
 }
 
 #ui-datepicker-div{
@@ -140,3 +131,57 @@
     background-color: #f44336; /* Red */
     color: white;
 }
+
+
+
+  @media screen and (min-width: 470px) and (max-width: 920px) {
+    .contform {
+        margin-top: 75px;
+        margin-bottom: 75px;
+        margin-left: 90px;
+        margin-right: 90px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+
+    }   
+
+    .dn {
+        display: none;
+
+    }
+
+    .bd {
+        align-items: center;
+    }
+
+  }
+
+  @media screen and (max-width: 470px) {
+    .contform  {
+      margin: 10px;
+      margin-bottom: 50px;
+    }
+
+    .dn {
+        display: none;
+    }
+
+    .bd {
+        align-items: center;
+    }
+  }
+.backgr  {
+        max-width: 100%;
+    height: auto;
+      
+    }
+  @media screen and (min-width: 920px) {
+    
+  }
+
+  @media screen and (max-width: 920px) {
+    .backgr  {
+      display: none;
+      
+    }
+  }

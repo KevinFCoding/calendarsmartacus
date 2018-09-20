@@ -74,6 +74,8 @@
 
 .backgr {
     background-image: url(../Image/logo_smartacus1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     height:350px;
     vertical-align: 0%;
 

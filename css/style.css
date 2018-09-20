@@ -92,7 +92,8 @@ button a
 
 button
 {
-    padding: 20px 53px;
+    width: 140px;
+    height:70px;
     cursor: pointer;
 
 }
@@ -115,6 +116,7 @@ button
     background-color:#FFF;
     float: left;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .mois li

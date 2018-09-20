@@ -43,7 +43,7 @@
 .slide {
     background-color: black;
     /*
-    background-image: image(./Image/logo_smartacus.png)
+    background-image: image(./Image/logo_smartacus1.png)
     */
 
 }
@@ -73,7 +73,7 @@
 /* -- background-color: black; -- */
 
 .backgr {
-    background-image: url(./Image/logo_smartacus.png);
+    background-image: url(./Image/logo_smartacus1.png);
     height:350px;
     vertical-align: 0%;
 

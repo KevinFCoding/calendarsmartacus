@@ -73,13 +73,9 @@
 /* -- background-color: black; -- */
 
 .backgr {
-<<<<<<< HEAD
-    background-image: url(../Image/logo_smartacus1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-=======
+
+    
     background-image: url(../Image/logo_smartacus2.png);
->>>>>>> 08bb70c8009ef31752aab07de5b2eef895d2e265
     height:350px;
     vertical-align: 0%;
 

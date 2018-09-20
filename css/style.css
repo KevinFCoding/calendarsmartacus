@@ -1,17 +1,17 @@
-/*En tête */
-/*
-header {
-    padding: 30px;
-}
+/* Font */
 
-header img{
-    position: absolute;
-    float: left;
-    width: 150px;
-    height: 150px;
+body{
+font-family: 'PT Sans', sans-serif;
+width : 100%;
+padding: 0;
+margin: 0;
 
 }
-*/
+body h1, body h2, body h3, body h4, body h5, body h5{
+    font-family: 'Antic Slab', sans-serif;
+}
+
+/****** Entête ******/
 header h1 .far{
     text-align: center;
     font-size: 30px;
@@ -23,64 +23,6 @@ header h1{
     color:#000;
 }
   
-/* Footer */
-footer p{
-    color : #8c8989;
-    text-align: center;
-}
-
-footer p span {
-    color :#CC201C;
-}
-
-footer .footerimg1 {
-    text-align: center;
-    margin-top: 50px;
-    width: 80%;
-}
-footer .footerimg2 {
- 
-    margin-top: 20px;
-    margin-bottom: 50px;
-}
-
-footer .section_footer_colored{
-    width: 100%;
-    height: auto;
-    padding: 8px 0 25px 0;
-    background-color:#282a2b;
-}
-
-footer .section_footer_colored a {
-    text-decoration: none;
-    color : #bfbfbf;
-}
-
-footer .mention_padding{
-    padding-top: 30px;
-}
-
-footer .linkfooter{
-    color: inherit;
-    transition: all 0.5s ease;
-}
-
-footer .linkfooter:hover{
-
-    color: #CC201C;
-    
-}
-
-.fab{
-    font-size: 25px;
-    margin: 8px;
-}
-
-.fa-facebook{color: #3b5998 ;}
-.fa-twitter{color: #55acee ;}
-.fa-linkedin-in{color: #0077b5 ;}
-.fa-instagram{color: #3f729b ;}
-
 
 /* button mois*/
 
@@ -405,18 +347,65 @@ ul
 }
     
 
-
-
-/* Font */
-
-body{
-font-family: 'PT Sans', sans-serif;
-width : 100%;
-padding: 0;
-margin: 0;
-
+/* Footer */
+footer p{
+    color : #8c8989;
+    text-align: center;
 }
-body h1, body h2, body h3, body h4, body h5, body h5{
-    font-family: 'Antic Slab', sans-serif;
+
+footer p span {
+    color :#CC201C;
 }
+
+footer .footerimg1 {
+    text-align: center;
+    margin-top: 50px;
+    width: 80%;
+}
+footer .footerimg2 {
+ 
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+footer .section_footer_colored{
+    width: 100%;
+    height: auto;
+    padding: 8px 0 25px 0;
+    background-color:#282a2b;
+}
+
+footer .section_footer_colored a {
+    text-decoration: none;
+    color : #bfbfbf;
+}
+
+footer .mention_padding{
+    padding-top: 30px;
+}
+
+footer .linkfooter{
+    color: inherit;
+    transition: all 0.5s ease;
+}
+
+footer .linkfooter:hover{
+
+    color: #CC201C;
+    
+}
+
+.fab{
+    font-size: 25px;
+    margin: 8px;
+}
+
+.fa-facebook{color: #3b5998 ;}
+.fa-twitter{color: #55acee ;}
+.fa-linkedin-in{color: #0077b5 ;}
+.fa-instagram{color: #3f729b ;}
+
+
+
+
 
